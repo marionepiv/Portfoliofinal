@@ -1,0 +1,287 @@
+
+
+/*FONT*/
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.bitcount-grid-double-POINT {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+.roboto-classic {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*BANNER*/
+
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  color: black;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+.bannertext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bigtext {
+    font-size:400%;
+    margin: 0;
+}
+
+.bigtext a {
+    color: black;
+    text-decoration: none;
+}
+.bigtext a:hover {
+    color: grey;
+}
+
+.undbigtext {
+    font-size: 200%;
+    margin: 0;
+}
+
+.summarybanner{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-weight: 400;
+    padding: 0;
+    margin:0;
+
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.footerbanner{
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    gap: 50px;
+    margin: 0;
+    color: black;
+    
+}
+
+.footerbanner a {
+    color: black;
+    text-decoration: none;
+}
+
+.footerbanner a:visited {
+    color: black;
+    text-decoration:underline;
+}
+
+.footerbanner a:hover {
+    color: grey;
+}
+
+
+
+
+
+
+
+/*MAINBANNER*/
+
+
+.bannerglobal {
+    position: relative;
+    top:0;
+    left:30%;
+    width:70%;
+    height:100%;
+    
+}
+
+/*SUMMARY*/
+
+.blocksummary {
+    padding-top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Itemsummaryblock {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 20%;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+}
+
+
+.numbersummary {
+    font-size: 400%;
+    margin: 0;
+}
+
+.textsummary{
+    font-size: 100%;
+    margin: 0;
+}
+
+
+.summarybanner a {
+    color: black;
+    text-decoration: none;
+}
+
+.summarybanner a:hover {
+    color: grey
+}
+
+.summarybanner a:visited {
+    text-decoration: underline;
+}
+
+/*PROJECT PRESENTATION*/
+
+
+.biggroupproject {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+}
+
+.numberproject{
+    font-size: 600%;
+}
+
+.projecttitle{
+    font-size: 120%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ligne{
+    display: flex;
+    align-items:first baseline;
+    gap: 10px;
+}
+
+.projectintroblock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.projectintroitem {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 45%;
+    color: black;
+    margin: 0;
+    padding: 0;
+    min-width: none;
+    overflow-wrap: break-word;
+}
+
+.projectphotoblock {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: center;
+}
+
+.projectphotoitem {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 33%;
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.blockphotoproject {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 20%;
+    height: 400px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+figcaption {
+    font-style: oblique;
+}
+
+/*ABOUT*/
+
+.bannerglobalabout {
+    margin-left: 30%;
+    width: 70%;  
+}
+
+
+.bannerglobalabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    min-height: 100vh;  
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.textabout {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+}
